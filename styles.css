@@ -1,9 +1,40 @@
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-}
 body{
     background-color: #004D98;
 }
 a{
     color: black;
+}
+h2{
+    text-align: center;
+}
+.instagram{
+    color: rgb(255, 0, 64);
+    text-decoration: none;
+}
+
+.instagram:hover{
+    color: #fff;
+    background-color: rgb(255, 0, 64);
+    padding: 10px;
+    border-radius: 40px;
+}
+.twitter{
+    color: rgb(0, 132, 255);
+    text-decoration: none;
+}
+.twitter:hover{
+    color: #fff;
+    background-color: rgb(0, 132, 255);
+    padding: 10px;
+    border-radius: 40px;
+}
+.youtube{
+    color: red;
+    text-decoration: none;
+}
+.youtube:hover{
+    color: #fff;
+    background-color: red;
+    padding: 10px;
+    border-radius: 40px;
 }

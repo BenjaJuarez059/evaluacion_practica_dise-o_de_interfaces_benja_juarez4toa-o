@@ -4,15 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jugadores y Redes sociales</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+      body{
+        margin: 0;
+      }
+
+      .header {
+  background-color: #A50044;
+  padding: 20px;
+  text-align: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #A50044;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #722ca0;
+  color: black;
+}
+.footer {
+  background-color:  #A50044;
+  text-align: center;
+  padding: 10px;
+}
+    </style>
 </head>
 <body>
-  <h1>Leyendas Históricas del Club</h1>
+  <div class="header">
+    <h1>Leyendas Históricas del Club</h1>
+  </div>
+  <div class="topnav">
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+  </div>
   <style>
     table, th, td {
       border:1px solid black;
     }
     </style>
-<table>
+<table style="width: 90%; height: 50%;">
   <tr>
     <th>Jugadores</th>
     <th>Posicion</th>
@@ -30,15 +74,15 @@
   </tr>
   </table>
 <h2>Nuestras Redes sociales</h2>
-<a href="https://www.instagram.com/fcbarcelona/">Instagram</a>
-<a href="https://x.com/FCBarcelona">X/Twitter</a>
-<a href="https://www.youtube.com/fcbarcelona">Youtube</a>
-<a href="productos.htm">Productos</a>
-<a href="index.html">Inicio</a>
-<footer>
-  <a href="https://www.instagram.com/fcbarcelona/">Instagram</a>
-<a href="https://x.com/FCBarcelona">X/Twitter</a>
-<a href="https://www.youtube.com/fcbarcelona">Youtube</a>
-</footer>
+<div>
+  <a href="https://www.instagram.com/fcbarcelona/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+  <a href="https://x.com/FCBarcelona" target="_blank" class="x/Twitter "><i class="fab fa-twitter"></i></a>
+  <a href="https://www.youtube.com/fcbarcelona" target="_blank" class="youtube"><i class="fab fa-youtube"></i></a>
+</div>
+<div class="footer">
+  <p>© 2025 FC Barcelona</p>
+  <p>Telefono: +34 902 18 99 00</p>
+  <p>opcional: +34 93 496 36 00</p>
+</div>
 </body>
 </html>
