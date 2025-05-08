@@ -1,4 +1,42 @@
 body{
+    margin: 0;
+  }
+
+  .header {
+background-color: #A50044;
+padding: 20px;
+text-align: center;
+}
+.topnav {
+overflow: hidden;
+background-color: #A50044;
+}
+
+/* Style the topnav links */
+.topnav a {
+float: left;
+display: block;
+color: #000000;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+background-color: #722ca0;
+color: black;
+}
+.footer {
+background-color:  #A50044;
+text-align: center;
+padding: 10px;
+}
+.iconos{
+display: flex;
+justify-content: space-between;
+}
+body{
     background-color: #004D98;
 }
 a{
@@ -15,8 +53,8 @@ h2{
 .instagram:hover{
     color: #fff;
     background-color: rgb(255, 0, 64);
-    padding: 10px;
-    border-radius: 40px;
+    padding: 20px;
+    border-radius: 30px;
 }
 .twitter{
     color: rgb(0, 132, 255);
@@ -35,6 +73,23 @@ h2{
 .youtube:hover{
     color: #fff;
     background-color: red;
-    padding: 10px;
-    border-radius: 40px;
+    padding: 20px;
+    border-radius: 30px;
 }
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+th{
+    background-color: orangered;
+    color: #000000;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+img {
+    display: block;
+    margin: auto;
+  }
